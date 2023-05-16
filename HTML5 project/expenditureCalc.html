@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/Expenses.js"></script>
+    <title>Expenditure Calculator</title>
+</head>
+<body>
+    <h1 style="text-decoration: underline">Expenses Calculator</h1>
+    <div id="table" style="margin-left: 30px; margin-right: 300px">
+
+    </div>
+    <div id="balanceTable" style="margin-left: 30px; margin-right: 300px">
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id = "addOrUpdate" style="margin-left: 30px; margin-right: 300px">
+    <table>
+        <tr>
+            <td>Amount(£/$):</td>
+            <td><input type="text" id="amountField"></td>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>Clear:</td>
+            <td><input type="checkbox" id="clearField"></td>
+        <tr>
+            <td>Payee:</td>
+            <td><input type="text" id="payeeField"></td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td><select id="typeField" /><option>Cheque(pay out)</option><option>Cheque(pay in)</option><option>Card transaction</option><option>Online transaction</option><option>Deposit</option><option>Wage pay</option></select></td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td><input type="text" id="descField"></td>
+        </tr>
+        <tr>
+            <td>Date:</td>
+            <td><input type="date" id="dateField"></td>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>Time:</td>
+            <td><select id="timeField"/></td>
+        </tr>
+    </table>
+        <div>
+            <button type="submit" id="addButton">Add</button>
+            <button type="submit" id="manualButton">Instructions</button>
+        </div>
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> all work done by -- Mark Williams - B00265222 --
+</body>
+</html>
